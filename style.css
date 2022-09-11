@@ -16,16 +16,19 @@ body{
 }
 
 /* styling the start button */
-.start{
+.start,
+.blackjack-container{
     position: absolute;
     transform: translate(-50% -50%);
     left: 50%;
     top: 50%;
-    font-family: 'Combo', cursive;
+    background-color: white;
 }
 
 .start button{
+    opacity: 0;
     padding: .5rem 1rem;
+    font-family: 'Combo', cursive;
    background-color: rgb(29, 109, 29);
     font-size: 2.5rem;
     font-weight: bold;
@@ -38,4 +41,8 @@ body{
 .start button:hover{
     color: rgb(29, 109, 29);
     background-color: white;    
+}
+
+.blackjack-container{
+
 }
