@@ -28,7 +28,7 @@ body{
 }
 
 .start button{
-
+    display: none;
     padding: .5rem 1rem;
     font-family: 'Combo', cursive;
    background-color: rgb(29, 109, 29);
@@ -48,14 +48,65 @@ body{
 }
 
 .blackjack-container{
-    width: 27rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   background: green;
+   background: white;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   
 
 }
+
 .header{
-  
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    user-select: none;
+    padding: 0.9rem 0rem;
+    font-family: 'Combo', cursive;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Combo', cursive;
+    font-size: 1.5rem;
+}
+
+.card div{
+    padding: 0.2rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+   
+}
+
+.buttons button{
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid aliceblue;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    padding: .9rem;
+    text-align: center;
+}
+
+.footer div{ 
+    font-size: 0.9rem;
+    font-weight: 600;
 }
