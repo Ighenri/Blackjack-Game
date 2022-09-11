@@ -3,8 +3,8 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    font-family: sans-serif, Arial; /* Use for card header */
-    font-family: 'Combo', cursive;  /* Use for card body and start btn */
+    /* font-family: sans-serif, Arial; /* Use for card header */
+    /* font-family: 'Combo', cursive; */ */  /* Use for card body and start btn */
 }
 
 body{
@@ -12,30 +12,34 @@ body{
     background-position:calc(-50% -50%);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
   
 }
 
 /* styling the start button */
-.start,
-.blackjack-container{
+.start{
     position: absolute;
-    transform: translate(-50% -50%);
-    left: 50%;
-    top: 50%;
-    background-color: white;
+   
 }
 
 .start button{
-    opacity: 0;
+
     padding: .5rem 1rem;
     font-family: 'Combo', cursive;
    background-color: rgb(29, 109, 29);
     font-size: 2.5rem;
     font-weight: bold;
     color: white;
+    outline: none;
     border: 1px solid rgb(29, 109, 29);
     border-radius: 0.5rem;
     transition: all 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .start button:hover{
@@ -44,5 +48,14 @@ body{
 }
 
 .blackjack-container{
+    width: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background: green;
 
+}
+.header{
+  
 }
