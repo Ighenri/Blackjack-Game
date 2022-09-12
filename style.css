@@ -64,7 +64,7 @@ body{
 .header{
     font-size: 3rem;
     font-weight: bold;
-    color: black;
+    color: red;
     user-select: none;
     padding: 0.9rem 0rem;
     font-family: 'Combo', cursive;
