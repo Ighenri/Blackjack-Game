@@ -27,13 +27,14 @@ function renderGame() {
 
 messageEl.textContent = message;
 sumEl.textContent = "sum: " + sum;
-cardsEl.textContent = "cards: " + cards[0] + " " + cards[1] 
+cardsEl.textContent = "cards: " + cards[0] + " " + cards[1]
 
 }
 
 function newCard() {
-    console.log("drawing a card")
     let card = 6;
     sum += card;
+    cards.push(card);
+    console.log(cards)
     renderGame();
 }
