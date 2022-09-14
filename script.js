@@ -10,9 +10,17 @@ let sumEl = document.getElementById("sum-el");
 let cardsEl =document.getElementById("cards-el");
 
 function getRandomCard(){
-    return 5
+    let randomNumber = Math.floor(Math.random() * 13) + 1 ;
+    if(randomNumber > 10) {
+        return 10;
+    }
+    else if ( randomNumber === 1){
+        return 11;  // This is the value of he Ace card of the blackjack
+    }
+    else{
+        return randomNumber;
+    }
 }
-
 
 
 function startGame(){
@@ -50,11 +58,3 @@ function newCard() {
 }
 
 
-
-function rollDice(){
-    let renderNumber = Math.floor(Math.random() * 6) + 1
-
-   return renderNumber
-
-}
-console.log(rollDice())
