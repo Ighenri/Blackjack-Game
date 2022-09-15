@@ -3,12 +3,11 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    /* font-family: sans-serif, Arial; /* Use for card header */
-    /* font-family: 'Combo', cursive; */  /* Use for card body and start btn */
+   
 }
 
 body{
-    background-image: url(./img/bg1.jpg);
+    background-image: url(./img/bg2.jpg);
     background-position:calc(-50% -50%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,6 +19,16 @@ body{
     height: 100vh;
   
 }
+body::after{
+    content: "";
+    background-image: url(./img/bg2.jpg);
+    opacity: 0;
+    background-position:calc(-50% -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 
 /* styling the start button */
 .start{
