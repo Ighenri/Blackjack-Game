@@ -21,33 +21,8 @@ body{
 }
 
 
-/* styling the start button */
-.start{
-    position: absolute;
-   
-   
-}
 
-#start_btn button{
-    opacity: 0;
-    padding: .5rem 1rem;
-    font-family: 'Combo', cursive;
-   background-color: rgb(29, 109, 29);
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
-    outline: none;
-    border: 2px dashed red;
-    border-radius: 0.5rem;
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
-}
 
-.start button:hover{
-    color: red;
-    background-color: white;
-    border: 2px double  rgb(29, 109, 29);
-}
 
 .blackjack-container{
 
