@@ -30,10 +30,10 @@
 
 
 ### Built with
+* [![Html][index.html]
+* [![css][style.css]
+* [![JavaScript][script.js]
 
-HTML
-CSS
-JAVASCRIPT
 
 ### Contact
 Twitter: https://twitter.com/IgweHenr1
