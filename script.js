@@ -12,8 +12,11 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardsEl =document.getElementById("cards-el");
 
+
+
 let playerEl = document.getElementById("player-el");
 playerEl.textContent = player.name +": $" + player.chips
+
 
 
 function getRandomCard(){
@@ -48,10 +51,10 @@ function renderGame() {
     if (sum <= 20  ) {  
     message = "Do you want to draw new card?";
 } else if (sum === 21) {
-    message ="You've got Blackjack";
+    message ="You've got Blackjack 💚";
     hasBlackJack = true;
 } else {
-    message ="You're out of the game";
+    message ="You're out of the game 🤪";
     isAlive = false;
 }
 

@@ -19,25 +19,17 @@ body{
     height: 100vh;
   
 }
-body::after{
-    content: "";
-    background-image: url(./img/bg2.jpg);
-    opacity: 0;
-    background-position:calc(-50% -50%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
 
 /* styling the start button */
 .start{
     position: absolute;
    
+   
 }
 
-.start button{
-    display: none;
+#start_btn button{
+    opacity: 0;
     padding: .5rem 1rem;
     font-family: 'Combo', cursive;
    background-color: rgb(29, 109, 29);
@@ -58,17 +50,20 @@ body::after{
 }
 
 .blackjack-container{
+
     width: 20rem;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
    background: yellow;
-   border: 2px solid white;
-   border-radius: 5px;
+   border: 10px solid green;
+   border-radius: 2rem;
    
 
 }
+
 
 .header{
     font-size: 3rem;
@@ -85,13 +80,15 @@ body::after{
     justify-content: space-between;
     align-items: center;
     font-family: 'Combo', cursive;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 .card div{
     padding: 0.2rem;
 }
-
+.card p{
+    font-size: 18px;
+}
 .buttons{
     display: flex;
     justify-content: space-between;
@@ -128,4 +125,18 @@ color: red;
     font-size: 0.9rem;
     font-weight: 600;
     color: red;
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        background-image: url(./img/bg2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .blackjack-container{
+        min-height: 50%;
+    }
+
 }
