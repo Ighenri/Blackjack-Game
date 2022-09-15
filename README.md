@@ -38,13 +38,13 @@
 
 
 ### Contact
-Twitter: https://twitter.com/IgweHenr1
+Henry: https://twitter.com/IgweHenr1
 
-Twitter : https://twitter.com/ScholasticaNge2
+Scholastica : https://twitter.com/ScholasticaNge2
 
-Projectlink: https://ighenri.github.io/Quiz-App/
+Projectlink: https://ighenri.github.io/Blackjack-Game/
 
 
 ### Acknowledgement 
 
-I want to acknowledge [Scholastica](https://twitter.com/ScholasticaNge2)my colleague for the contributions render inorder to see the end of this project, honestly you're a wonderful partner and also to my mentor [Jola](https://twitter.com/jolah99). She has been the best tutor to us. I really appreciate you guys 💝. Thank you for allowing us take some adventure through collaboration on github.
+I want to acknowledge [Scholastica](https://twitter.com/ScholasticaNge2) my colleague for the contributions render inorder to see the end of this project, honestly you're a wonderful partner and also to my mentor [Jola](https://twitter.com/jolah99). She has been the best tutor to us. I really appreciate you guys 💝. Thank you for allowing us take some adventure through collaboration on github.
