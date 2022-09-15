@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](./dev%20quiz.png)
+![](./img/blackjack-screenshot.png)
 
 ## Blackjack Game
 
