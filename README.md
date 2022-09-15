@@ -30,9 +30,11 @@
 
 
 ### Built with
-* [![Html][index.html]
-* [![css][style.css]
-* [![JavaScript][script.js]
+* HTML
+* CSS
+* JAVASCRIPT
+
+
 
 
 ### Contact
