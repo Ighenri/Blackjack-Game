@@ -24,11 +24,9 @@
 
 ![](./dev%20quiz.png)
 
-## Developer Quiz Application
+## Blackjack Game
 
-This is an application that tests developers of their proper understanding on web development and their respective syntaxes
 
-When no answer is supplied by the player, the correct word is displayed
 
 ### Built with
 
@@ -39,11 +37,11 @@ JAVASCRIPT
 ### Contact
 Twitter: https://twitter.com/IgweHenr1
 
-LinkedIn : https://linkedin.com/in/henryigwe
+Twitter : https://twitter.com/ScholasticaNge2
 
 Projectlink: https://ighenri.github.io/Quiz-App/
 
 
 ### Acknowledgement 
 
-I want to acknowledge [web3bridge](https://twitter.com/Web3Bridge) for hosting this cohort and also to my mentor [Jola](https://twitter.com/jolah99). She has been the best tutor to us. I really appreciate you guys 💝
+I want to acknowledge [Scholastica](https://twitter.com/ScholasticaNge2)my colleague for the contributions render inorder to see the end of this project, honestly you're a wonderful partner and also to my mentor [Jola](https://twitter.com/jolah99). She has been the best tutor to us. I really appreciate you guys 💝. Thank you for allowing us take some adventure through collaboration on github.
